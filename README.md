@@ -9,7 +9,6 @@ There are basically 3 types of recommendation algorithms
 * Collaborative filtering - Find Products liked by 'similar' users
 * Association rules learning - Find complementary Products
 This recommendation is however based on Collaborative filtering which uses easily captured user behaviour data. The rating data is represented using a matrix where users are along the rows and products are along the columns. Blank Cells represent the ratings for unseen products.
-![alt text](rating matrix.png )
 
 There are different methods to fill the blank cells like nearest neighbour model, latent factor analysis, etc. by using values which are already filled in rating matrix. However, we will use Neareset neighbour model which measures similarity of users using distance metrics.
 For example:
