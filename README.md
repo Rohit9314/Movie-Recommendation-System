@@ -1,6 +1,6 @@
 # Movie-Recommendation-System
 
-This is the code for building a recommendation system based on the nearest neighbours model using collaborative filtering.
+This is the code for building a recommendation system based on collaborative filtering using K nearest neighbour model.
 
 ## Overview
 
